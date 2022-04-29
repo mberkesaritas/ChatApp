@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ChatApp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.0/socket.io.js" integrity="sha512-/xb5+PNOA079FJkngKI2jvID5lyiqdHXaUUcfmzE0X0BdpkgzIWHC59LOG90a2jDcOyRsd1luOr24UCCAG8NNw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+    <div id="chatWrap">
+      <h2>ChatApp</h2>
+      <div id="chatWindow">
+        <div id="output"></div>
+        <div id="feedback"></div>
+      </div>
+      <input type="text" id="sender" placeholder="name">
+      <input type="text" id="message" placeholder="message">
+      <button id="submitBtn">Send</button>
+    </div>
+  </body>
+  <script src="chat.js"></script>
+</html>
